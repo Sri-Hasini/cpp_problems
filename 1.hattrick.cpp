@@ -1,4 +1,4 @@
-//hattrick
+//hattrick - codechef(853)
 /*
 hattrick means we need to get continuous W . 
 So , we just checked all possibilities of it by checking whether a is 'W' then whether b is 'W' if c is also 'W' we store some variable g as 1,
