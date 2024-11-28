@@ -1,4 +1,4 @@
-//Assignment Score-codechef()
+//Assignment Score-codechef(794)
 /*
 Chef will only pass when he can score 50% of the total marks.
 each test is for 100 , so we have (n+1)*100 marks.
