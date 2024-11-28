@@ -1,4 +1,4 @@
-//Calorie Intake-codechef()
+//Calorie Intake-codechef(247)
 /*
 the taken calories is stored in some variable i.e., cal=y*z
 if x-cal is less than 0 then we need to print -1, as check has intake more calories
