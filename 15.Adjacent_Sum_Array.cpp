@@ -1,4 +1,4 @@
-//Adjacent Sum Array-codechef()
+//Adjacent Sum Array-codechef(1388)
 /*
 we have done sorting to the array , because if larger numbers are in front place, we will get negative answers while performing operations.
 we first pushed 1 into the resulted vector( in the constraints they have already mentioned that it is greater or equal to 1 
