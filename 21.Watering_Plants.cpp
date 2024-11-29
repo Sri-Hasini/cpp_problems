@@ -1,4 +1,5 @@
 //Watering Plants - leetcode(acc : 79%) (medium)
+https://leetcode.com/problems/watering-plants/description/
 class Solution {
 public:
     int wateringPlants(vector<int>& plants, int capacity) {
