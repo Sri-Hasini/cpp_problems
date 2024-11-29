@@ -1,0 +1,31 @@
+//Lucky numbers in matrix - leetcode (acc : 79%)
+//https://leetcode.com/problems/lucky-numbers-in-a-matrix/
+class Solution {
+public:
+    vector<int> luckyNumbers(vector<vector<int>>& matrix) {
+        int n=matrix.size();
+        int maxi=0,ind=0,x=0,mini=INT_MAX;
+        for(int i=0;i<matrix[0].size();i++){
+            maxi=0,mini=INT_MAX;
+            for(int j=0;j<n;j++){
+                if(maxi<matrix[j][i]){
+                    maxi=matrix[j][i];
+                    ind=j;
+                }
+            }
+            for(int k=0;k<matrix[0].size();k++){
+                if(mini>matrix[ind][k]){
+                    mini=matrix[ind][k];
+                }
+            }
+            // cout<<maxi<<" "<<mini<<endl;
+            if(mini==maxi){
+                x=mini;
+            }
+        }
+        vector <int> ans;
+        if(x!=0)
+        ans.push_back(x);
+        return ans;
+    }
+};
