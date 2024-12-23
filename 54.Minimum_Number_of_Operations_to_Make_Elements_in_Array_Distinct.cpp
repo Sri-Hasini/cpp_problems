@@ -1,4 +1,4 @@
-//Minimum Number of Operations to Make Elements in Array Distinct - leetcode()
+//Minimum Number of Operations to Make Elements in Array Distinct - leetcode(53%)
 //https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/
 /*
 You are given an integer array nums. You need to ensure that the elements in the array are distinct. To achieve this, you can perform the following operation any number of times:
