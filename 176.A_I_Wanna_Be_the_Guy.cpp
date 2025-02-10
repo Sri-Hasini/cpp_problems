@@ -20,7 +20,7 @@ int main() {
     }
     int m;
     cin >> m;
-    vector <int> b(n);
+    vector <int> b(m);
     for (int i = 0; i < m; i++) {
         cin >> b[i];
         s.insert(b[i]);
