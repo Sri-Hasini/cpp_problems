@@ -6,6 +6,7 @@ Given an array of integers nums and an integer k, return the number of contiguou
 class Solution {
 public:
     int numSubarrayProductLessThanK(vector<int>& nums, int k) {
+        if (k <= 1) return 0;
         int cnt = 0, pro = 1, left = 0;
         for (int right = 0; right < nums.size(); right++) {
             pro *= nums[right];
