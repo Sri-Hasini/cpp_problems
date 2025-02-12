@@ -9,6 +9,7 @@ Given the array nums after the possible rotation and an integer target, return t
 
 You must write an algorithm with O(log n) runtime complexity.
 */
+// M E T H O D -----------------------------> 1
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -19,6 +20,32 @@ public:
         if (m.find(target) != m.end()) {
             auto itr = m.find(target);
             return itr->second;
+        }
+        return -1;
+    }
+};
+
+// M E T H O D ------------------------------> 2
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        int n = nums.size();
+        vector <pair<int,int>> p(n);
+        for (int i = 0; i < nums.size(); i++) {
+            p[i].first = nums[i];
+            p[i].second = i;
+        }
+        sort(p.begin(), p.end());
+        int left = 0, right = p.size() - 1;
+        while (left <= right) {
+            int mid = (left + right)/2;
+            if (p[mid].first == target) {
+                return p[mid].second;
+            }
+            else if (p[mid].first < target) {
+                left = mid + 1;
+            }
+            else right = mid - 1;
         }
         return -1;
     }
