@@ -1,5 +1,5 @@
-//Q1. Sort Matrix by Diagonals - leetcode (medium) (acc : )
-//https://leetcode.com/contest/weekly-contest-436/problems/sort-matrix-by-diagonals/description/
+//Q1. Sort Matrix by Diagonals - leetcode (medium) (acc : 72%)
+//https://leetcode.com/problems/sort-matrix-by-diagonals/description/
 /*
 You are given an n x n square matrix of integers grid. Return the matrix such that:
 The diagonals in the bottom-left triangle (including the middle diagonal) are sorted in non-increasing order.
