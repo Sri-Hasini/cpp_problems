@@ -1,4 +1,5 @@
 //King Keykhosrow's Mystery - codeforces
+//http://codeforces.com/problemset/problem/2034/A
 //m must be greater than or equal to at least one of a and b
 //The remainder when m is divided by a must be equal to the remainder when m is divided by b
 #include <bits/stdc++.h>
