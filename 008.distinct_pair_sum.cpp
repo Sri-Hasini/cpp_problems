@@ -7,7 +7,6 @@ eg: 2 5 --> 10
 2+3    3+4    4+5
 2+4    3+5
 2+5
-
 */
 #include <bits/stdc++.h>
 using namespace std;
