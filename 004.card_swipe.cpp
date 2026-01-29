@@ -29,5 +29,4 @@ int main() {
         }
         cout<<big<<endl;
     }
-	return 0;
 }
