@@ -44,6 +44,5 @@ int main() {
         
         if(g==1)cout<<"YES\n";
         else cout<<"NO\n";
-    }
-    
+    }   
 }
