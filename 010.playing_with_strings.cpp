@@ -3,7 +3,6 @@
 if the count of 1's in string s and count of 1's in string r matched we can print Yes, otherwise No
 Because we can perform as many operations as we can to exchange 1's in order to match the r string.
 */
-
 #include <bits/stdc++.h>
 using namespace std;
 
