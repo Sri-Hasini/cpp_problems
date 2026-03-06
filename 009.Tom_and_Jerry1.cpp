@@ -7,7 +7,6 @@ otherwise , check if the extra space is even or odd, if it is even then print Ye
 */
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     int t;
     cin >>t;
