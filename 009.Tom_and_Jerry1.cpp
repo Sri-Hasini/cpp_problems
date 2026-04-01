@@ -5,6 +5,7 @@ so we can find the distance like the difference of b and d added to the differen
 if that distance is less than k, we print "No" directly because it requires more steps 
 otherwise , check if the extra space is even or odd, if it is even then print Yes, otherwise No
 */
+
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
