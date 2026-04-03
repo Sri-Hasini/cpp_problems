@@ -6,6 +6,7 @@ if it is 0 and the customer wants that item, he will be sad....
 so if it is not 0 then we will decrement that value in arr by 1 and we continue the process unless customer's array is done ,
 we will calculate the no.of times the customer become sad by keeping an else block if arr value at ith index is 0 we will increment it by 1
 */
+
 #include <bits/stdc++.h>
 using namespace std;
 
