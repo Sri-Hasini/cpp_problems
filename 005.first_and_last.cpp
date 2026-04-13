@@ -2,9 +2,7 @@
 /*
 We can do a lot of process by rotating whole array and then calculate, but it leads to time complexity.
 So, we can just calculate the sum of current and adjacent values and also 1st and last value, and calculate for a maximum value and then print it
-
 */
-
 #include <bits/stdc++.h>
 using namespace std;
 
