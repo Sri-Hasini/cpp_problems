@@ -5,7 +5,6 @@ Because we can perform as many operations as we can to exchange 1's in order to 
 */
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     int t;
     cin >> t;
