@@ -33,7 +33,6 @@ int main() {
             if (sum >= x) {
                 break;
             }
-            
             sum += v[i];
         }
         if (i == n+1) cout << -1 <<endl;
