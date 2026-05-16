@@ -5,7 +5,6 @@ So, we can just calculate the sum of current and adjacent values and also 1st an
 */
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     int t;
     cin >> t;
