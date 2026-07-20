@@ -1,6 +1,6 @@
 # 🚀 DSA Problem Collection  
 
-This repository contains **200+ solved problems** from **LeetCode, CodeChef, CodeForces, GeeksforGeeks**, and more. All solutions are implemented in **C++** with a **clean and optimized approach**.  
+This repository contains **400+ solved problems** from **LeetCode, CodeChef, CodeForces, GeeksforGeeks**, and more. All solutions are implemented in **C++** with a **clean and optimized approach**.  
 
 ---
 
@@ -11,11 +11,11 @@ This repository contains **200+ solved problems** from **LeetCode, CodeChef, Cod
 ---
 
 ## 📌 What's Inside?  
-✅ **200+ Problems** from top coding platforms  
+✅ **400+ Problems** from top coding platforms  
 ✅ **Efficient C++ Implementations**  
-✅ **Categorized by Topics** (Arrays, DP, Graphs, etc.)  
-✅ **Detailed Explanations & Complexity Analysis**  
-✅ **Well-Structured Code with Comments**  
+✅ **Topics** (Arrays, DP, Graphs, etc.)  
+✅ **Detailed Explanations & Complexity Analysis for some questions**  
+✅ **Well-Structured Code**  
 
 ---
 
